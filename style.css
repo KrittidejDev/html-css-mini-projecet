@@ -19,20 +19,32 @@
 
 /* section 2 */
 .section-hero {
+  flex-wrap: wrap;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  gap: 90px;
+}
+
+.section-hero-revert {
+  width: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: reverse;
 }
     
 .hero-image {
-  width: 600px;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
   height: auto;
 }
     
     
 .hero-content {
   display: flex;
+  flex: 1;
+  justify-content: center;
   flex-direction: column;
   padding-top: 20px;
   gap: 10px;
