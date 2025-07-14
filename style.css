@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 .container {
@@ -130,65 +129,63 @@
   display: none;
 }
 /* section 4 */
-.subscribe{
-  font-family: 'Circular Std', sans-serif;
+.subscribe {
+  font-family: "Circular Std", sans-serif;
 }
 
 .subscribe-box,
 .subscribe-input-group,
-.subscribe-btn{
+.subscribe-btn {
   color: #fff;
   border-radius: 10px;
 }
 
-.subscribe{
-  background-color: #0BC0EB;
+.subscribe {
+  background-color: #0bc0eb;
   width: 90%;
   flex-direction: column;
-  padding: 20px 10px 20px 10px ;
+  padding: 20px 10px 20px 10px;
   border-radius: 25px;
 }
 
-.subscribe-box{
+.subscribe-box {
   text-align: center;
   flex-direction: column;
   width: 350px;
-  padding: 10px ;
+  padding: 10px;
   background-color: transparent;
 }
 
-.subscribe-text{
-  padding-bottom: 15px ;
+.subscribe-text {
+  padding-bottom: 15px;
 }
 
-.subscribe-input-group{
+.subscribe-input-group {
   width: 95%;
   padding: 10px 10px 10px 20px;
   background-color: #fff;
 }
 
-.subscribe-input{
+.subscribe-input {
   border: none;
   outline: none;
 }
-.subscribe-input::placeholder{
-  color:darkgrey;
+.subscribe-input::placeholder {
+  color: darkgrey;
   font-size: 10px;
-} 
+}
 
-
-.subscribe-btn{
+.subscribe-btn {
   border-color: transparent;
-  background-color: #404C99;
+  background-color: #404c99;
   padding: 10px;
   width: 170px;
   font-size: 10px;
 }
 
-.subscribe-btn-icons{
+.subscribe-btn-icons {
   padding-left: 10px;
 }
-
 
 /* responsive */
 
@@ -198,6 +195,11 @@
   /* section 2 */
 
   /* section 3 */
+  .our-blog-title {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
   .ceo-section {
     background-image: none;
     min-height: auto;
@@ -224,11 +226,7 @@
   /* section 2 */
 
   /* section 3 */
-  .our-blog-title {
-    margin-top: 80px;
-    margin-bottom: 30px;
-    font-size: 30px;
-  }
+
   .ceo-content {
     width: 100%;
   }
@@ -318,5 +316,3 @@
 
   /* section 4 */
 }
-
-
