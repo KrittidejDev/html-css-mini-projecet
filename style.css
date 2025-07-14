@@ -5,7 +5,9 @@
 }
 
 .container {
+  padding: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #fff;
@@ -16,5 +18,150 @@
 /* section 2 */
 
 /* section 3 */
+.our-blog-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
 
+.our-blog-title {
+  margin-top: 160px;
+  margin-bottom: 70px;
+  font-size: 50px;
+  font-weight: 900;
+  color: #183b56;
+}
+
+.card-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 29.42px;
+}
+
+.card {
+  margin-bottom: 24px;
+  border-radius: 8px;
+  padding: 30px;
+  width: 100%;
+  max-width: 453px;
+  background-color: #f8fcfd;
+}
+
+.card-image {
+  margin-bottom: 24px;
+  width: 100%;
+  height: auto;
+}
+
+.card-type-name {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 450px;
+  color: #5a7184;
+}
+
+.card-title {
+  margin-bottom: 24px;
+  height: 68px;
+  font-size: 24px;
+  font-weight: 900;
+  color: #183b56;
+}
+
+.btn-readmore {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #404c99;
+  cursor: pointer;
+}
+
+.ceo-section {
+  width: 100%;
+  max-width: 1280px;
+  min-height: 1102px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/assets/images/ceo-section-backgroung.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.ceo-content {
+  margin-bottom: 30px;
+  width: 50%;
+  font-size: 30px;
+  font-weight: 700;
+  color: #183b56;
+  text-align: center;
+}
+.ceo-name {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0bc0eb;
+  span {
+    font-weight: 450;
+    color: #5a7184;
+  }
+}
+.ceo-mobile-background {
+  display: none;
+}
 /* section 4 */
+
+/* responsive */
+
+@media (max-width: 768px) {
+  /* section 1 */
+
+  /* section 2 */
+
+  /* section 3 */
+  .ceo-section {
+    background-image: none;
+    min-height: auto;
+  }
+  .ceo-content {
+    width: 80%;
+  }
+  .ceo-mobile-background {
+    display: flex;
+    width: 100%;
+  }
+  .mt-100 {
+    margin-top: -100px;
+  }
+  .mb-100 {
+    margin-bottom: -100px;
+  }
+  /* section 4 */
+}
+
+@media (max-width: 480px) {
+  /* section 1 */
+
+  /* section 2 */
+
+  /* section 3 */
+  .our-blog-title {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .ceo-content {
+    width: 100%;
+  }
+
+  /* section 4 */
+}
