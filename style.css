@@ -26,7 +26,7 @@
 }
 
 .navbar-main{
-  min-width: 50%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -86,7 +86,7 @@
 }
 
 .hero-section-title{
-  width: 80%;
+  width: 70%;
   font-size: 4rem;
   font-weight: 600;
   line-height: 1.2;
@@ -159,6 +159,8 @@
   left: -6%;
 }
 
+
+
 .container {
   padding: 10px;
   display: flex;
@@ -190,6 +192,10 @@
 .brand-logos-item{
   width: 10%;
   height: 80%;
+}
+
+.brand-logos-item.creative-design{
+  display: none;
 }
 
 .why-choose-agency {
@@ -551,6 +557,7 @@ margin-bottom: 15px;
   }
 
   .navbar-main{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -591,10 +598,41 @@ margin-bottom: 15px;
   }
 
   .hero-section-desc{
-    width: 90%;   
+    width: 90%;
   }
 
   /* section 1 */
+
+  .brand-logos-item-container{
+    width: 75%;
+    flex-wrap: wrap;
+    gap: 3%;
+  }
+
+  .brand-logos-item{
+    width: 30%;
+    height: 20%;
+  }
+
+  .brand-logos-item.creative-design{
+    display: block;
+  }
+
+  .why-choose-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 75%;
+  }
+
+  .why-choose-card{
+    width: 100%;
+  }
+
+  .why-choose-card-desc{
+    font-size: 1rem;
+    text-align: initial;
+  }
 
   /* section 2 */
   section {
