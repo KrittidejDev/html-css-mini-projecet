@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 .container {
@@ -18,3 +19,61 @@
 /* section 3 */
 
 /* section 4 */
+.subscribe{
+  font-family: 'Circular Std', sans-serif;
+}
+
+.subscribe-box,
+.subscribe-input-group,
+.subscribe-btn{
+  color: #fff;
+  border-radius: 10px;
+}
+
+.subscribe{
+  background-color: #0BC0EB;
+  width: 90%;
+  flex-direction: column;
+  padding: 20px 10px 20px 10px ;
+  border-radius: 25px;
+}
+
+.subscribe-box{
+  text-align: center;
+  flex-direction: column;
+  width: 350px;
+  padding: 10px ;
+  background-color: transparent;
+}
+
+.subscribe-text{
+  padding-bottom: 15px ;
+}
+
+.subscribe-input-group{
+  width: 95%;
+  padding: 10px 10px 10px 20px;
+  background-color: #fff;
+}
+
+.subscribe-input{
+  border: none;
+  outline: none;
+}
+.subscribe-input::placeholder{
+  color:darkgrey;
+  font-size: 10px;
+} 
+
+
+.subscribe-btn{
+  border-color: transparent;
+  background-color: #404C99;
+  padding: 10px;
+  width: 170px;
+  font-size: 10px;
+}
+
+.subscribe-btn-icons{
+  padding-left: 10px;
+}
