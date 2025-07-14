@@ -20,22 +20,22 @@
   border: none;
 }
 
-.navbar_logo{
+.navbar-logo{
   min-width: 20%;
 }
 
-.navbar_main{
+.navbar-main{
   min-width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.navbar_menu{
+.navbar-menu{
   min-width: 65%;
 }
 
-.navbar_list{
+.navbar-list{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -47,18 +47,18 @@
   overflow: hidden;
 }
 
-.navbar_link:hover{
+.navbar-link:hover{
   font-weight: bold;
   cursor: pointer;
 }
 
-.navbar_link{
+.navbar-link{
   text-decoration: none;
   color: #183B56;
   font-weight: 450;
 }
 
-.navbar_login-btn{
+.navbar-login-btn{
   width: 10%;
   height: 50px;
   border-radius: 15px;
@@ -75,20 +75,20 @@
   flex-direction: row;
 }
 
-.hero-section_content{
+.hero-section-content{
   padding-top: 160px;
   padding-bottom: 100px;
   min-width: 50%;
 }
 
-.hero-section_title{
+.hero-section-title{
   font-size: 4rem;
   font-weight: 600;
   line-height: 1.2;
   color: #183B56;
 }
 
-.hero-section_desc{
+.hero-section-desc{
   margin-top: 20px;
   width: 78%;
   font-size: 1rem;
@@ -97,7 +97,7 @@
   line-height: 2.5;
 }
 
-.hero-section_cta-btn{
+.hero-section-cta-btn{
   margin-top: 30px;
   border: none;
   width: 28%;
@@ -109,12 +109,12 @@
   font-size: 0.8rem;
 }
 
-.hero-section_cta-btn:hover{
+.hero-section-cta-btn:hover{
   background-color: #293eb6;
   cursor: pointer;
 }
 
-.hero-section_visual{
+.hero-section-visual{
   padding: 0;
   min-width: 55%;
   height: fit-content;
@@ -174,7 +174,7 @@
   justify-content: center;
 }
 
-.brand-logos_item-container{
+.brand-logos-item-container{
   width: 60%;
   display: flex;
   flex-direction: row;
@@ -182,7 +182,7 @@
   align-items: center;
 }
 
-.brand-logos_item{
+.brand-logos-item{
   width: 10%;
   height: 80%;
 }
@@ -243,13 +243,13 @@
   justify-content: center;
   margin-bottom: 32px;
 }
-.why-choose-icon--blue {
+.why-choose-icon-blue {
   background: #e6f7ff;
 }
-.why-choose-icon--orange {
+.why-choose-icon-orange {
   background: #fff3ed;
 }
-.why-choose-icon--green {
+.why-choose-icon-green {
   background: #e6fcf5;
 }
 .why-choose-icon img {
