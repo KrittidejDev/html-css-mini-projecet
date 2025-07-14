@@ -435,6 +435,7 @@
 .footer-section,
 .subscribe-section{
   font-family: 'Circular Std', sans-serif;
+  margin: 20px;
   
 }
 .footer-section{
@@ -463,7 +464,7 @@
 
 .subscribe-section{
   background-color: #0BC0EB;
-  width: 95%;
+  /* width: 95%; */
   padding: 40px 10px 40px 10px ;
   border-radius: 25px;
 }
