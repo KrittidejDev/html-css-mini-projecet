@@ -59,12 +59,12 @@ button {
     
 .container-button-1 {
   display: flex;
-  lign-items: center;
+  align-items: center;
 }
 
 .container-button-2 {
   display: flex;
-  lign-items: center;
+  align-items: center;
 }
 
 
