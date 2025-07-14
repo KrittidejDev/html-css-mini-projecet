@@ -4,10 +4,150 @@
   box-sizing: border-box;
 }
 
+.navbar, .hero-section{
+  background-color: #ECF7FB;
+}
+.navbar{
+  padding-top: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: none;
+  border: none;
+}
+
+.navbar_logo{
+  min-width: 20%;
+}
+
+.navbar_main{
+  min-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_menu{
+  min-width: 65%;
+}
+
+.navbar_list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 1rem;
+  font-style: Circular Std;
+  font-weight: 450;
+  color: #183B56;
+  overflow: hidden;
+}
+
+ul a{
+  text-decoration: none;
+  color: #183B56;
+  font-weight: 450;
+}
+
+.navbar_login-btn{
+  width: 10%;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid #183B56;
+  font-weight: bold;
+  background: transparent;
+}
+
+.hero-section{
+  padding-top: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-section_content{
+  padding-top: 160px;
+  padding-bottom: 100px;
+  min-width: 50%;
+}
+
+.hero-section_title{
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #183B56;
+}
+
+.hero-section_desc{
+  margin-top: 20px;
+  width: 78%;
+  font-size: 1rem;
+  font-weight: 450;
+  color: #5A7184;
+  line-height: 2.5;
+}
+
+.hero-section_cta-btn{
+  margin-top: 30px;
+  border: none;
+  width: 28%;
+  height: 60px;
+  background-color: #404C99;
+  color: white;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.hero-section_visual{
+  padding: 0;
+  min-width: 55%;
+  height: fit-content;
+  position: relative;
+}
+
+.big-circle {
+  width: 100%;
+}
+
+.customer-review{
+  width: 35%;
+  position: absolute;
+  top: 25%;
+  left: -5%;
+}
+
+.project-done{
+  width: 30%;
+  position: absolute;
+  top: 35%;
+  right: -8%;
+}
+
+.monthly-visitor{
+  width: 35%;
+  position: absolute;
+  right: -6%;
+  top: 70%;
+}
+
+.verify-logo{
+  width: 17%;
+  position: absolute;
+  top: 60%;
+  left: -6%;
+}
+
 .container {
   padding: 10px;
   padding: 10px;
   display: flex;
+  flex-direction: column;
   flex-direction: column;
   flex-direction: column;
   justify-content: center;
@@ -15,8 +155,30 @@
   background-color: #fff;
 }
 
+
+
 /* section 1 */
 
+.brand-logos{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.brand-logos_item-container{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-logos_item{
+  width: 10%;
+  height: 80%;
+}
 /* section 2 */
 
 /* section 3 */
