@@ -18,6 +18,13 @@
 /* section 1 */
 
 /* section 2 */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 /* section 3 */
 .our-blog-section {
