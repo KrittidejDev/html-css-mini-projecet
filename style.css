@@ -20,10 +20,10 @@
 /* section 2 */
 .section-hero {
   width: 100%;
-  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .section-hero-revert {
@@ -33,11 +33,16 @@
   align-items: center;
   flex-wrap: wrap-reverse;
 }
-    
-.hero-image {
+
+.hero-image-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: auto;
+}
+    
+.hero-image {
+  width: 100%;
   height: auto;
 }
     
@@ -55,13 +60,12 @@
 }
     
 .hero-button {
-  padding: 10px 40px 10px 40px;
+  width: 186px;
+  height: 70px;
   background-color:#404C99;
   border-radius: 6px;
   color: white;
   border: none;
-  display: flex;
-  align-items: center;
 }
     
 
@@ -241,26 +245,7 @@
   /* section 1 */
 
   /* section 2 */
-  section {
-    flex-direction: column;
-    gap: 32px;
-    padding: 24px 0;
-  }
-  .image-1 img,
-  .image-2 img {
-    width: 90vw;
-    max-width: 350px;
-    margin: 0 auto;
-    display: block;
-  }
-  .content-1, .content-2 {
-    align-items: center;
-    text-align: center;
-    padding-top: 0;
-  }
-  h1 {
-    font-size: 32px;
-  }
+ 
   /* section 3 */
   .our-blog-title {
     margin-top: 80px;
@@ -291,18 +276,7 @@
   /* section 1 */
 
   /* section 2 */
-  section {
-    gap: 20px;
-    padding: 12px 0;
-  }
-  .image-1 img,
-  .image-2 img {
-    max-width: 90vw;
-    width: 100%;
-  }
-  h1 {
-    font-size: 22px;
-  }
+  
   /* section 3 */
 
   .ceo-content {
@@ -349,48 +323,3 @@
 }
 /* section 4 */
 
-/* responsive */
-
-@media (max-width: 768px) {
-  /* section 1 */
-
-  /* section 2 */
-
-  /* section 3 */
-  .ceo-section {
-    background-image: none;
-    min-height: auto;
-  }
-  .ceo-content {
-    width: 80%;
-  }
-  .ceo-mobile-background {
-    display: flex;
-    width: 100%;
-  }
-  .mt-100 {
-    margin-top: -100px;
-  }
-  .mb-100 {
-    margin-bottom: -100px;
-  }
-  /* section 4 */
-}
-
-@media (max-width: 480px) {
-  /* section 1 */
-
-  /* section 2 */
-
-  /* section 3 */
-  .our-blog-title {
-    margin-top: 80px;
-    margin-bottom: 30px;
-    font-size: 30px;
-  }
-  .ceo-content {
-    width: 100%;
-  }
-
-  /* section 4 */
-}
