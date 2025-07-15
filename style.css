@@ -361,9 +361,14 @@
   width: 186px;
   height: 70px;
   background-color:#404C99;
-  border-radius: 6px;
+  border-radius: 15px;
   color: white;
   border: none;
+}
+
+.hero-button:hover{
+  background-color: #293eb6;
+  cursor: pointer;
 }
     
 
