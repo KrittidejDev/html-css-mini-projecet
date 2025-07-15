@@ -488,7 +488,6 @@
 .footer-section,
 .subscribe-section{
   font-family: 'Circular Std', sans-serif;
-  
   margin-left: 15%;
   margin-right: 15%;
   
@@ -524,9 +523,7 @@
 }
 .subscribe-card{
   text-align: center;
-  /* width: 400px; */
   padding: 10px ;
-  background-color: transparent;
 }
 .subscribe-text{
   padding-bottom: 15px ;
@@ -535,12 +532,10 @@
 }
 .subscribe-input-group{
   flex-direction: row;
-  /* width: 95%; */
   padding: 10px 10px 10px 20px;
   background-color: #fff;
 }
 .subscribe-input{
-
   border: none;
   outline: none;
   
@@ -555,6 +550,10 @@
   padding: 15px;
   width: 150px;
 }
+.subscribe-btn:hover {
+  box-shadow: 0 24px 64px 0 rgba(16, 30, 54, 0.12);
+  cursor: pointer;
+}
 .subscribe-btn-icons{
   padding-left: 10px;
   width: 25px;
@@ -562,8 +561,13 @@
 }
 
 .subscribe-btn-icons img{
-width: 25px;
-height: 16px;
+  width: 25px;
+  height: 16px;
+}
+
+.subscribe-btn-icons a:hover{
+  box-shadow: 0 24px 64px 0 rgba(16, 30, 54, 0.12);
+  cursor: pointer;
 }
 
 .footer-agency,
@@ -571,19 +575,58 @@ height: 16px;
 .footer-company,
 .footer-portfolio,
 .footer-contact{
-margin-top: 30px;
-flex-grow: 1;
+  margin-top: 30px;
+  flex-grow: 1;
 }
+
+
 .footer-title{
-font-weight: bold;
-color: #183B56;
-font-size: 20px; 
-margin-bottom: 15px;
+  font-weight: bold;
+  color: #183B56;
+  font-size: 20px; 
+  margin-bottom: 15px;
 }
 .footer-detail{
   font-size: 1rem;
 }
 
+.footer-detail{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px; 
+  color: darkgrey;
+}
+.footer-txt{
+  line-height: 3.5;
+}
+
+.footer-detail a:hover{
+  text-decoration: underline;
+  color: #404C99;
+}
+.footer-detail a{
+  text-decoration: none;
+  color: darkgrey;
+}
+
+
+.agency-title{
+  color: #404C99;
+  font-size: 30px;
+  font-weight: bold;
+}
+.footer-social-icon img{
+  width: 32px;
+  height: 32px;
+}
+.footer-social-web{
+  display: block;
+  margin-top: 30px;
+}
+.footer-social-mobile{
+  display: none;
+  margin-top: 30px;
+}
 /* responsive */
 
 @media (max-width: 768px) {
@@ -673,11 +716,11 @@ margin-bottom: 15px;
   }
 
   /* section 2 */
-  section {
+  /* section {
     flex-direction: column;
     gap: 32px;
     padding: 24px 0;
-  }
+  } */
   .image-1 img,
   .image-2 img {
     width: 90vw;
@@ -717,6 +760,20 @@ margin-bottom: 15px;
     margin-bottom: -100px;
   }
   /* section 4 */
+   
+  .footer-section{
+    flex-direction: column;
+  }
+  .footer-social-web{
+    display: none;
+  }
+  .footer-social-mobile{
+    width: 100%;
+    display: block;
+  }
+  .subscribe-input{
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -777,98 +834,6 @@ margin-bottom: 15px;
   }
   /* section 3 */
 
-  .ceo-content {
-    width: 100%;
-  }
-
-  /* section 4 */
-}
-
-.ceo-section {
-  width: 100%;
-  max-width: 1280px;
-  min-height: 1102px;
-  display: flex;
-  flex-direction: column;
-  font-size: 12px; 
-  color: #5A7184;
-}
-.footer-txt{
-  line-height: 3.5;
-}
-
-.agency-title{
-  color: #404C99;
-  font-size: 30px;
-  font-weight: bold;
-}
-.footer-social-icon img{
-  width: 32px;
-  height: 32px;
-}
-.footer-social-web{
-  display: block;
-  margin-top: 30px;
-}
-.footer-social-mobile{
-  display: none;
-  margin-top: 30px;
-}
-
-
-/* responsive */
-
-@media (max-width: 768px) {
-  /* section 1 */
-
-  /* section 2 */
-
-  /* section 3 */
-  .ceo-section {
-    background-image: none;
-    min-height: auto;
-  }
-  .ceo-content {
-    width: 80%;
-  }
-  .ceo-mobile-background {
-    display: flex;
-    width: 100%;
-  }
-  .mt-100 {
-    margin-top: -100px;
-  }
-  .mb-100 {
-    margin-bottom: -100px;
-  }
-  /* section 4 */
-  
-  .footer-section{
-    flex-direction: column;
-  }
-  .footer-social-web{
-    display: none;
-  }
-  .footer-social-mobile{
-    width: 100%;
-    display: block;
-  }
-  .subscribe-input{
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  /* section 1 */
-
-  /* section 2 */
-
-  /* section 3 */
-  .our-blog-title {
-    margin-top: 80px;
-    margin-bottom: 30px;
-    font-size: 30px;
-  }
   .ceo-content {
     width: 100%;
   }
