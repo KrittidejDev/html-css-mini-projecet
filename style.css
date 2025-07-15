@@ -338,7 +338,6 @@ body {
   align-items: center;
   flex-wrap: wrap-reverse;
   background-color: #f8fcfd;
-  column-gap: 200px;
   box-sizing: border-box;
 }
 
@@ -512,7 +511,7 @@ body {
 .subscribe-section {
   margin-left: 15%;
   margin-right: 15%;
-  min-width:70%;
+  min-width: 70%;
   /* background-color: red; */
 }
 .footer-section {
