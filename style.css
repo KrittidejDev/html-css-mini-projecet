@@ -215,7 +215,7 @@ body {
 
 /* section 1 */
 
-.brand-logos {
+.brand-logos{
   padding-top: 100px;
   padding-bottom: 100px;
   width: 100%;
@@ -223,7 +223,7 @@ body {
   justify-content: center;
 }
 
-.brand-logos-item-container {
+.brand-logos-item-container{
   width: 60%;
   display: flex;
   flex-direction: row;
@@ -231,12 +231,12 @@ body {
   align-items: center;
 }
 
-.brand-logos-item {
+.brand-logos-item{
   width: 10%;
   height: 80%;
 }
 
-.brand-logos-item.creative-design {
+.brand-logos-item.creative-design{
   display: none;
 }
 
@@ -264,8 +264,7 @@ body {
   flex-direction: row;
   gap: 40px;
   justify-content: center;
-  width: 100%;
-  max-width: 70%;
+  width: 70%;
 }
 
 .why-choose-card {
@@ -321,6 +320,7 @@ body {
   color: #5a7184;
   line-height: 1.7;
 }
+
 
 /* section 2 */
 .section-hero {
@@ -753,7 +753,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 70%;
   }
 
   .why-choose-card {
