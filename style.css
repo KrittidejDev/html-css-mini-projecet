@@ -21,16 +21,22 @@ body {
   overflow-x: hidden;
 }
 
-.navbar,
+.nav-wrap,
 .hero-section {
   background-color: #ecf7fb;
 }
+
 .navbar {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav-wrap{
   padding-top: 50px;
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 50px;
-  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -112,7 +118,6 @@ body {
 .navbar-menu-toggle-container {
   padding-left: 15%;
   padding-right: 15%;
-  background-color: #ecf7fb;
   display: none;
 }
 
@@ -658,10 +663,11 @@ body {
 
 @media (max-width: 768px) {
   /* header  */
-  .navbar {
-    width: 90%;
+  .nav-wrap {
+    width: 100%;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
   }
 
   .navbar-menu{
@@ -683,8 +689,12 @@ body {
   }
 
   .menu-toggle-background{
-    width: 100%;
-    background-color: #ECF7FB;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+    /* background-color: #ECF7FB; */
   }
 
   .navbar-list-toggle{
