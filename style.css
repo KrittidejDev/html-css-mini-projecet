@@ -14,10 +14,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   background-color: #fff;
   font-family: "CircularStd", sans-serif;
   box-sizing: border-box;
+  align-items: center;
+  overflow-x: hidden;
 }
 
 .navbar,
@@ -29,6 +30,7 @@ body {
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 50px;
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -88,6 +90,12 @@ body {
   color: #183b56;
 }
 
+.navbar-login-btn:hover{
+  background-color: #183b56;
+  color: white;
+  cursor: pointer;
+}
+
 #menu-toggle {
   display: none;
 }
@@ -108,10 +116,11 @@ body {
   display: none;
 }
 
-.navbar-menu-toggle-menu {
-  padding-top: 10%;
-  padding-left: 8%;
-  padding-bottom: 10%;
+.navbar-menu-toggle-menu{
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
   background-color: white;
   border-radius: 30px;
 }
@@ -209,9 +218,10 @@ body {
   left: -6%;
 }
 
+
 /* section 1 */
 
-.brand-logos {
+.brand-logos{
   padding-top: 100px;
   padding-bottom: 100px;
   width: 100%;
@@ -219,7 +229,7 @@ body {
   justify-content: center;
 }
 
-.brand-logos-item-container {
+.brand-logos-item-container{
   width: 60%;
   display: flex;
   flex-direction: row;
@@ -227,12 +237,12 @@ body {
   align-items: center;
 }
 
-.brand-logos-item {
+.brand-logos-item{
   width: 10%;
   height: 80%;
 }
 
-.brand-logos-item.creative-design {
+.brand-logos-item.creative-design{
   display: none;
 }
 
@@ -260,8 +270,7 @@ body {
   flex-direction: row;
   gap: 40px;
   justify-content: center;
-  width: 100%;
-  max-width: 70%;
+  width: 70%;
 }
 
 .why-choose-card {
@@ -317,6 +326,7 @@ body {
   color: #5a7184;
   line-height: 1.7;
 }
+
 
 /* section 2 */
 .section-hero {
@@ -648,24 +658,54 @@ body {
 @media (max-width: 768px) {
   /* header  */
   .navbar {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .navbar-main {
-    width: 100%;
+    width: 90%;
     display: flex;
-    flex-direction: column;
     align-items: center;
   }
 
-  .navbar-list {
-    display: flex;
-    justify-content: space-between;
+  .navbar-menu{
+    display: none;
   }
 
-  .navbar-login-btn {
-    min-width: 25%;
+  .navbar-login-btn{
+    display: none;
+  }
+
+  .navbar-menu-toggle{
+    display: block;
+    width: 8%;
+  }
+
+  .navbar-menu-toggle:hover{
+    background-color: #d7eff8;
+    cursor: pointer;
+  }
+
+  .menu-toggle-background{
+    width: 100%;
+    background-color: #ECF7FB;
+  }
+
+  .navbar-list-toggle{
+    text-align: center;
+    line-height: 2.5;
+  }
+
+  .navbar-link{
+    display: block;
+  }
+
+  .navbar-link:hover{
+    background-color: hsla(260, 4%, 17%, 0.1);
+  }
+
+  #menu-toggle{
+    display: block;
+    visibility: hidden;
+  }
+
+  #menu-toggle:checked ~ .navbar-menu-toggle-container{
+    display: block;
   }
 
   /* hero section */
@@ -702,12 +742,12 @@ body {
   .brand-logos-item-container {
     width: 75%;
     flex-wrap: wrap;
-    gap: 3%;
+    gap: 10%;
   }
 
-  .brand-logos-item {
-    width: 30%;
-    height: 20%;
+  .brand-logos-item{
+    width: 20%;
+    height: 30%;
   }
 
   .brand-logos-item.creative-design {
@@ -718,7 +758,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 75%;
+    width: 70%;
   }
 
   .why-choose-card {
@@ -729,6 +769,7 @@ body {
     font-size: 1rem;
     text-align: initial;
   }
+
 
   /* section 2 */
   .section-hero {
@@ -794,41 +835,48 @@ body {
     width: 40%;
   }
 
-  .navbar-logo {
-    width: 100%;
-  }
-
-  .navbar-menu {
-    display: none;
-  }
-
-  .navbar-login-btn {
-    display: none;
-  }
-
-  .navbar-menu-toggle {
-    display: block;
+  .navbar-menu-toggle{
     width: 10%;
   }
 
-  .navbar-menu-toggle:hover {
-    background-color: #d7eff8;
-    cursor: pointer;
+  .hero-section-title{
+    width: 90%;
+    font-size: 2.2rem;
   }
 
-  .menu-toggle-background {
-    background-color: #ecf7fb;
+  .hero-section-desc{
+    width: 90%;
+    font-size: 1.1rem;
   }
 
-  #menu-toggle {
-    display: block;
-    visibility: hidden;
+  .hero-section-cta-btn{
+    max-width: 40%;
   }
 
-  #menu-toggle:checked ~ .navbar-menu-toggle-container {
-    display: block;
-  }
   /* section 1 */
+
+  .brand-logos{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .brand-logos-item-container{
+    width: 80%;
+    gap: 20%;
+  }
+
+  .brand-logos-item{
+    width: 32%;
+    height: 20%;
+  }
+
+  .why-choose-cards{
+    min-width: 100%;
+  }
+
+  .why-choose-card{
+    width: 80%;
+  }
 
   /* section 2 */
 
