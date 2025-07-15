@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   background-color: #fff;
   font-family: "CircularStd", sans-serif;
   box-sizing: border-box;
@@ -208,6 +207,10 @@ body {
   position: absolute;
   top: 60%;
   left: -6%;
+}
+
+.container{
+  align-items: center;
 }
 
 /* section 1 */
@@ -861,9 +864,13 @@ body {
     width: 32%;
     height: 20%;
   }
-  
+
   .why-choose-cards{
     min-width: 100%;
+  }
+
+  .why-choose-card{
+    width: 80%;
   }
 
   /* section 2 */
