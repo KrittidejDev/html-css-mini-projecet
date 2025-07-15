@@ -510,9 +510,10 @@ body {
 /* section 4 */
 .footer-section,
 .subscribe-section {
-  font-family: "Circular Std", sans-serif;
   margin-left: 15%;
   margin-right: 15%;
+  min-width:70%;
+  /* background-color: red; */
 }
 .footer-section {
   display: flex;
@@ -537,7 +538,6 @@ body {
 
 .subscribe-section {
   background-color: #0bc0eb;
-  /* width: 95%; */
   padding: 40px 10px 40px 10px;
   border-radius: 25px;
 }
