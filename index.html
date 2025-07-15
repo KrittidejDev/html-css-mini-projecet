@@ -7,33 +7,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- navbar and hero section-->
-    <header class="navbar">
-      <div class="navbar_main">
-        <img src="assets/icons/Logo.png" class="navbar_logo" />
-        <nav class="navbar_menu">
-          <ul class="navbar_list">
-            <li><a href="#" class="navbar_link">About</a></li>
-            <li><a href="#" class="navbar_link">Service</a></li>
-            <li><a href="#" class="navbar_link">Blog</a></li>
-            <li><a href="#" class="navbar_link">Contact</a></li>
-            <li><a href="#" class="navbar_link">Pricing</a></li>
+      <button class="navbar-login-btn">Log In</button>
+      <label for="menu-toggle" class="navbar-menu-toggle">
+        <img src="assets/icons/gg_menu-right.png" class="navbar-menu-toggle-icon">
+      </label>
+    </header>
+    <div class="menu-toggle-background">
+      <input type="checkbox" id="menu-toggle">
+      <div class="navbar-menu-toggle-container">
+        <nav class="navbar-menu-toggle-menu">
+          <ul class="navbar-list-toggle">
+            <li><a href="#" class="navbar-link">About</a></li>
+            <li><a href="#" class="navbar-link">Service</a></li>
+            <li><a href="#" class="navbar-link">Blog</a></li>
+            <li><a href="#" class="navbar-link">Contact</a></li>
+            <li><a href="#" class="navbar-link">Pricing</a></li>
           </ul>
         </nav>
       </div>
-      <button class="navbar_login-btn">Log In</button>
-    </header>
+    </div>
     <section class="hero-section">
-      <div class="hero-section_content">
-        <h1 class="hero-section_title">
-          We help you<br>to build your<br>
-          <span class="hero-section_title--highlight">Business</span>
+      <div class="hero-section-content">
+        <h1 class="hero-section-title">
+          We help you to build your 
+          <span class="hero-section-title-highlight">Business</span>
         </h1>
-        <p class="hero-section_desc">Enthusiastically extend extensive customer service<br>
+        <p class="hero-section-desc">Enthusiastically extend extensive customer service<br>
           before best-of-breed convergence completely.</p>
-        <button class="hero-section_cta-btn">Get a Quote</button>
+        <button class="hero-section-cta-btn">Get a Quote</button>
       </div>
-      <div class="hero-section_visual">
+      <div class="hero-section-visual">
         <img class="big-circle" src="assets/icons/Group 1570.png" />
         <img class="customer-review" src="assets/icons/Group 1580.png" />
         <img class="project-done" src="assets/icons/Group 5836.png" />
@@ -41,26 +44,14 @@
         <img class="verify-logo" src="assets/icons/Icon.png" />
       </div>
     </section>
-
-
-    <div class="container">
-      <!-- section 1-->
-      <aside class="brand-logos">
-        <div class="brand-logos_item-container">
-          <img src="assets/icons/brand-04.png" class="brand-logos_item" />
-          <img src="assets/icons/brand-01.png" class="brand-logos_item" />
-          <img src="assets/icons/brand-06.png" class="brand-logos_item" />
-          <img src="assets/icons/brand-05.png" class="brand-logos_item" />
-          <img src="assets/icons/brand-02.png" class="brand-logos_item" />
-        </div>
-      </aside>
-
-    
+  
+      <!-- Why Choose Agency Section -->
+  
       <section class="why-choose-agency">
         <h2 class="why-choose-title">Why Choose<br>Agency!</h2>
         <div class="why-choose-cards">
           <div class="why-choose-card">
-            <div class="why-choose-icon why-choose-icon--blue">
+            <div class="why-choose-icon why-choose-icon-blue">
               <img src="assets/icons/3d 1.png" alt="Design Icon" />
             </div>
             <div class="why-choose-card-title">Design</div>
@@ -70,7 +61,7 @@
             </div>
           </div>
           <div class="why-choose-card">
-            <div class="why-choose-icon why-choose-icon--orange">
+            <div class="why-choose-icon why-choose-icon-orange">
               <img src="assets/icons/web-dev-icon.jpg" alt="Development Icon" />
             </div>
             <div class="why-choose-card-title">Development</div>
@@ -80,7 +71,7 @@
             </div>
           </div>
           <div class="why-choose-card">
-            <div class="why-choose-icon why-choose-icon--green">
+            <div class="why-choose-icon why-choose-icon-green">
               <img src="assets/icons/megaphone 1.png" alt="Marketing Icon" />
             </div>
             <div class="why-choose-card-title">Marketing</div>
@@ -108,7 +99,6 @@
                foster mission-critical collaboration and idea-sharing</p>
       <button class="hero-button">Learn More</button>   
       </div>   
-    </div>
     </section>
 
     <section class="section-hero-revert">
@@ -228,8 +218,77 @@
             </div>
           </div>
         </section>
-        <footer>
-
+        <footer class="footer-section">
+          <div class="footer-agency">
+            <p class="agency-title">
+              Agency
+            </p>
+            <p class="footer-detail footer-txt">
+              Professionally scale cross functional </br> 
+              human capital and extensive technology. 
+            </p> 
+            <div class="footer-social-web  footer-detail">
+              <div class="footer-social-icon">
+                <a><img src="./assets/icons/Icon-google.png"></a>
+                <a><img src="./assets/icons/Icon-twitter.png"></a>
+                <a><img src="./assets/icons/Icon-ig.png"></a>
+                <a><img src="./assets/icons/Icon-linkin.png"></a>
+              </div>
+              <p>Copyright©Agency.All right reserved</p>
+            </div>
+          </div>
+           
+          <div class="footer-services">
+            <p class="footer-title">
+              Services
+            </p>
+            <div class="footer-detail footer-txt">
+              <a>Design</a>
+              <a>Development</a>
+              <a>Marketing</a>
+              <a>Content Writing</a>
+            </div>
+          </div>
+          <div class="footer-company">
+            <p class="footer-title">
+              Company
+            </p>
+            <div class="footer-detail footer-txt">
+              <a>About</a>
+              <a>Terms</a>
+              <a>Privacy Policy</a>
+              <a>Careers</a>
+            </div>
+          </div>
+          <div class="footer-portfolio">
+            <p class="footer-title">
+              Portfolio
+            </p>
+            <div class="footer-detail footer-txt">
+              <a>Portfolio</a>
+              <a>Single Case</a>
+              <a>Payment</a> 
+            </div>
+          </div>
+          <div class="footer-contact">
+            <p class="footer-title">
+              Contact
+            </p>
+            <div class="footer-detail footer-txt">
+              <p><b>Call : </b>971 5546 963</p>
+              <p><b>Email : </b>example@gmail.com</p>
+              <p><b>Address : </b>Dhaka, Bangladesh </p>
+            </div>
+          </div>
+          <div class="footer-social-mobile footer-detail">
+            <div class="footer-social-icon">
+              <a><img src="./assets/icons/Icon-google.png"></a>
+              <a><img src="./assets/icons/Icon-twitter.png"></a>
+              <a><img src="./assets/icons/Icon-ig.png"></a>
+              <a><img src="./assets/icons/Icon-linkin.png"></a>
+            </div>
+            <p>Copyright©Agency.All right reserved</p>
+          </div>
         </footer>
     </div>
   </body>
