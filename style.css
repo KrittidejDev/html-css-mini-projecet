@@ -17,6 +17,8 @@ body {
   background-color: #fff;
   font-family: "CircularStd", sans-serif;
   box-sizing: border-box;
+  align-items: center;
+  overflow-x: hidden;
 }
 
 .navbar,
@@ -28,6 +30,7 @@ body {
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 50px;
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -85,6 +88,12 @@ body {
   font-size: 1rem;
   background: transparent;
   color: #183b56;
+}
+
+.navbar-login-btn:hover{
+  background-color: #183b56;
+  color: white;
+  cursor: pointer;
 }
 
 #menu-toggle {
@@ -209,9 +218,6 @@ body {
   left: -6%;
 }
 
-.container{
-  align-items: center;
-}
 
 /* section 1 */
 
@@ -653,8 +659,7 @@ body {
 @media (max-width: 768px) {
   /* header  */
   .navbar {
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 90%;
     display: flex;
     align-items: center;
   }
@@ -678,6 +683,7 @@ body {
   }
 
   .menu-toggle-background{
+    width: 100%;
     background-color: #ECF7FB;
   }
 
